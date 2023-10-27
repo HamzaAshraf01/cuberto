@@ -208,7 +208,7 @@ html , body {
 }
 
 /* page 4 start */
-#page4 {
+#page-4 {
 
     width: 100%;
     padding: 2vw 10vw;
@@ -248,4 +248,94 @@ html , body {
     font-size: 1.2vw;
     letter-spacing: -.5px;
 
+}
+
+
+
+
+/* copy from newweb */
+
+
+
+#page4 {
+    min-height: 80vh;
+    width: 100%;
+    position: relative;
+    padding: 160px 160px;
+    margin-top: 160px;
+    border-top: 1px solid #3f3f3fff;
+    
+}
+ #elem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 150px; */
+    /* background-color: salmon; */
+    position: relative;
+ }
+#text-div {
+    /* background-color: aqua; */
+    height: 140px;
+    overflow: hidden;
+}
+
+
+#elem img {
+    width: 270px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: inset 20px 20px #111;
+    position: absolute;
+    opacity: 0 ;
+    transition: all ease-out 0.5s;
+    transform: translateY(10%) rotate(2deg);
+    z-index: 0;
+}
+#elem img:nth-child(1) {
+    left: 3%;
+}
+#elem img:nth-child(3) {
+    right: 3%;
+}
+#elem h1 {
+    font-size: 6vw;
+    transition: all ease-out 0.5s;
+    font-weight: 600;
+    z-index: 5;
+    position: relative;
+    color: #000000;
+}
+#elem:hover h1 {
+    transform: translateY(-100%);
+}
+#elem:hover img {
+    opacity: 1 ;
+    transform: translateY(0%) rotate(0deg);
+}
+/* page 5 start */
+#page5{
+    width: 100%;
+    min-height: 100vh;
+    padding: 140px 100px;
+}
+
+#page5 h2 {
+    font-size: 5vw;
+    font-weight: 300;   
+}
+#client-table{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-top: 1px solid #3f3f3f;
+    height: 90px;
+    
+}
+#client-table:nth-last-child(1){
+    border-bottom: 1px solid #3f3f3f;
+}
+#client-table h3 , h4 {
+    font-weight: 300;
 }
