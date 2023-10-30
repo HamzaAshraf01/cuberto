@@ -99,28 +99,28 @@ Shery.imageEffect(".rimages", {
 
 // cursor into image cursor code
 
-var client = document.querySelectorAll("#client-table")
-client.forEach(function(elem){
+// var client = document.querySelectorAll("#client-table")
+// client.forEach(function(elem){
 
-    elem.addEventListener("mouseenter",function(){
-        var att = elem.getAttribute("data-image")
-        crsr.style.width = "450px"
-        crsr.style.height = "450px"   
-        crsr.style.backgroundImage = `url(${att})`
-        // crsr.style.cursor = "initial" 
+//     elem.addEventListener("mouseenter",function(){
+//         var att = elem.getAttribute("data-image")
+//         crsr.style.width = "450px"
+//         crsr.style.height = "450px"   
+//         crsr.style.backgroundImage = `url(${att})`
+//         // crsr.style.cursor = "initial" 
 
-    })
+//     })
 
-    elem.addEventListener("mouseleave",function(){
-        crsr.style.width = "15px"
-        crsr.style.height = "15px"
-        crsr.style.backgroudImage = `none`
+//     elem.addEventListener("mouseleave",function(){
+//         crsr.style.width = "15px"
+//         crsr.style.height = "15px"
+//         crsr.style.backgroudImage = `none`
         
 
-    })
+//     })
 
 
-})
+// })
 
 // gsap color change code from page 4
 
